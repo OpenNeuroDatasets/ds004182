@@ -1,0 +1,10 @@
+filename	acq_time
+func/sub-control039_task-rest_run-1_bold.nii.gz	2019-08-06T13:18:05
+fmap/sub-control039_magnitude1.nii.gz	2019-08-06T13:07:21
+fmap/sub-control039_magnitude2.nii.gz	2019-08-06T13:07:21
+fmap/sub-control039_phasediff.nii.gz	2019-08-06T13:07:21
+func/sub-control039_task-magictrickwatching_run-1_bold.nii.gz	2019-08-06T13:32:06
+func/sub-control039_task-magictrickwatching_run-2_bold.nii.gz	2019-08-06T13:42:54
+func/sub-control039_task-magictrickwatching_run-3_bold.nii.gz	2019-08-06T13:55:31
+func/sub-control039_task-rest_run-2_bold.nii.gz	2019-08-06T14:16:26
+anat/sub-control039_rec-NORM_T1w.nii.gz	2019-08-06T14:18:06
