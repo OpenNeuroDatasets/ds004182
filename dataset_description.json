@@ -7,6 +7,8 @@
         "Jeremy Skipper",
         "Kou Murayama"
     ],
-    "EthicsApprovals": [],
+    "EthicsApprovals": [
+        "The study protocol was approved by the University of Reading Research Ethics Committee (UREC; 18/18)."
+    ],
     "License": "CC0"
 }
