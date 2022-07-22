@@ -1,6 +1,7 @@
 # Overview
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>The Magic, Memory, Curiosity (MMC) dataset contains data from 50 healthy human adults incidentally encoding 36 videos of magic tricks inside the MRI scanner across three runs.</li>
+  <li>Before and after incidental learning, a 10-min resting-state scan was acquired.</li>
+  <li>The MMC dataset includes contextual incentive manipulation, curiosity ratings for the magic tricks, as well as incidental memory performance tested a week later using a surprise cued recall and recognition test .</li>
+  <li>Working memory and constructs potentially relevant in the context of motivated learning (e.g., need for cognition, fear of failure) were additionally assessed.</li>
 </ul>
