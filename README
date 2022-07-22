@@ -8,3 +8,9 @@
 
 ## Stimuli
 The stimuli used here were short videos of magic tricks taken from a validated stimulus set (MagicCATs, Ozono et al., 2021) specifically created for the usage in fMRI studies. All final stimuli are available upon request. The request procedure is outlined in the Open Science Framework repository associated with the MagicCATs stimulus set (https://osf.io/ad6uc/). 
+
+## Participant responses
+Participants’ responses to demographic questions, questionnaires, and performance in the working memory assessment as well as both tasks are available in comma-separated value (CSV) files. Demographic (MMC_demographics.csv), raw questionnaire (MMC_raw_quest_data.csv) and other score data (MMC_scores.csv) as well as other information (MMC_other_information.csv) are structured as one line per participant with questions and/or scores as columns. Explicit wordings and naming of variables can be found in the supplementary information. Participant scan summaries (MMC_scan_subj_sum.csv) contain descriptives of brain coverage, TSNR, and framewise displacement (one row per participant) averaged first within acquisitions and then within participants. Participants’ responses and reaction times in the magic trick watching and memory task (MMC_experimental_data.csv) are stored as one row per trial per participant.
+
+## Derivatives
+
