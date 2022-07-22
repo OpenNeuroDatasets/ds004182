@@ -21,20 +21,20 @@ Participants’ responses to demographic questions, questionnaires, and performa
 		-anat_has_skull no																				\
 		-anat_follower anat_w_skull anat $derivindir/$anatUAC											\
 		-anat_follower_ROI aaseg  anat $sswindir/$fsparc												\
-		    -anat_follower_ROI aeseg  epi  $sswindir/$fsparc												\
-		    -anat_follower_ROI FSvent epi  $sswindir/$fsvent												\
-		    -anat_follower_ROI FSWMe  epi  $sswindir/$fswm													\
-		    -anat_follower_ROI FSGMe  epi  $sswindir/$fsgm													\
-		    -anat_follower_erode FSvent FSWMe																\
-		    -dsets $epi_dpattern																			\
-			-outlier_polort $POLORT																			\
-		    -tcat_remove_first_trs 0																		\
-			-tshift_opts_ts -tpattern altplus																\
-	  	    -align_opts_aea -cost lpc+ZZ -giant_move -check_flip											\
-	  	    -align_epi_strip_method 3dSkullStrip                                                            \
-		    -tlrc_base MNI152_2009_template_SSW.nii.gz														\
-		    -tlrc_NL_warp																					\
-			-tlrc_NL_warped_dsets $sswindir/$anatQQ															\
+		-anat_follower_ROI aeseg  epi  $sswindir/$fsparc												\
+		-anat_follower_ROI FSvent epi  $sswindir/$fsvent												\
+		-anat_follower_ROI FSWMe  epi  $sswindir/$fswm													\
+		-anat_follower_ROI FSGMe  epi  $sswindir/$fsgm													\
+		-anat_follower_erode FSvent FSWMe																\
+		-dsets $epi_dpattern																			\
+		-outlier_polort $POLORT																			\
+		-tcat_remove_first_trs 0																		\
+		-tshift_opts_ts -tpattern altplus																\
+	  	-align_opts_aea -cost lpc+ZZ -giant_move -check_flip											\
+	  	-align_epi_strip_method 3dSkullStrip                                                            \
+		-tlrc_base MNI152_2009_template_SSW.nii.gz														\
+		-tlrc_NL_warp																					\
+		-tlrc_NL_warped_dsets $sswindir/$anatQQ															\
 			$sswindir/$matrix																				\
 			$sswindir/$warp																					\
 		    -volreg_base_ind 1 $min_out_first_run															\
