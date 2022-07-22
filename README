@@ -5,3 +5,6 @@
   <li>The MMC dataset includes contextual incentive manipulation, curiosity ratings for the magic tricks, as well as incidental memory performance tested a week later using a surprise cued recall and recognition test .</li>
   <li>Working memory and constructs potentially relevant in the context of motivated learning (e.g., need for cognition, fear of failure) were additionally assessed.</li>
 </ul>
+
+## Stimuli
+The stimuli used here were short videos of magic tricks taken from a validated stimulus set (MagicCATs, Ozono et al., 2021) specifically created for the usage in fMRI studies. All final stimuli are available upon request. The request procedure is outlined in the Open Science Framework repository associated with the MagicCATs stimulus set (https://osf.io/ad6uc/). 
