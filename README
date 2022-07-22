@@ -14,13 +14,13 @@ Participants’ responses to demographic questions, questionnaires, and performa
 
 ## Preprocessing
 
-			afni_proc.py -subj_id "${subjstr}"																\
-			-blocks despike tshift align tlrc volreg mask blur scale regress					            \
-			-radial_correlate_blocks tcat volreg															\
-			-copy_anat $derivindir/$anatSS																	\
-			-anat_has_skull no																				\
-			-anat_follower anat_w_skull anat $derivindir/$anatUAC											\
-		    -anat_follower_ROI aaseg  anat $sswindir/$fsparc												\
+		afni_proc.py -subj_id "${subjstr}"																\
+		-blocks despike tshift align tlrc volreg mask blur scale regress					            \
+		-radial_correlate_blocks tcat volreg															\
+		-copy_anat $derivindir/$anatSS																	\
+		-anat_has_skull no																				\
+		-anat_follower anat_w_skull anat $derivindir/$anatUAC											\
+		-anat_follower_ROI aaseg  anat $sswindir/$fsparc												\
 		    -anat_follower_ROI aeseg  epi  $sswindir/$fsparc												\
 		    -anat_follower_ROI FSvent epi  $sswindir/$fsvent												\
 		    -anat_follower_ROI FSWMe  epi  $sswindir/$fswm													\
