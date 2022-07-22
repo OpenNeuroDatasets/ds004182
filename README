@@ -14,6 +14,8 @@ Participants’ responses to demographic questions, questionnaires, and performa
 
 ## Preprocessing
 
+Data was preprocessed using the AFNI (version 21.2.03) software suite. For more details, please refer to the data descriptor (LINK) or the Github repository (LINK).
+
 	afni_proc.py -subj_id "${subjstr}" \
 		-blocks despike tshift align tlrc volreg mask blur scale regress \
 		-radial_correlate_blocks tcat volreg \
