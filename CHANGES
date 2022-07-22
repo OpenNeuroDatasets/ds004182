@@ -1,3 +1,5 @@
+1.0.0 2022-07-22
+  - initial snapshot
 0.62 2020-06-08T13:41:53
 
 	- ADD sub-control001 to the BIDS directory: /storage/shared/research/cinn/2018/MAGMOT/MAGMOT_BIDS (by pyBIDSconv version 1.1.9 : 
@@ -5763,4 +5765,3 @@
 0.01 2019-03-13T10:25:23
 
 	- Initial release.
-
