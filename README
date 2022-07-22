@@ -31,12 +31,12 @@ Participants’ responses to demographic questions, questionnaires, and performa
 		-tcat_remove_first_trs 0														\
 		-tshift_opts_ts -tpattern altplus													\
 		-align_opts_aea -cost lpc+ZZ -giant_move -check_flip								\
-		-align_epi_strip_method 3dSkullStrip											\
-		-tlrc_base MNI152_2009_template_SSW.nii.gz									\
-		-tlrc_NL_warp																\
-		-tlrc_NL_warped_dsets $sswindir/$anatQQ $sswindir/$matrix $sswindir/$warp		\
-		-volreg_base_ind 1 $min_out_first_run															\
-		-volreg_post_vr_allin yes																		\
+		-align_epi_strip_method 3dSkullStrip									\
+		-tlrc_base MNI152_2009_template_SSW.nii.gz                                                                       \
+		-tlrc_NL_warp                                                                                                                               \
+		-tlrc_NL_warped_dsets $sswindir/$anatQQ $sswindir/$matrix $sswindir/$warp            \
+		-volreg_base_ind 1 $min_out_first_run                                                                                    \
+		-volreg_post_vr_allin yes                                                                                                             \
 		-volreg_pvra_base_index MIN_OUTLIER																\
 		-volreg_align_e2a																				\
 		-volreg_tlrc_warp																				\
