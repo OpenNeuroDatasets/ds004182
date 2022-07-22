@@ -30,8 +30,8 @@ Participants’ responses to demographic questions, questionnaires, and performa
 		-outlier_polort $POLORT																			\
 		-tcat_remove_first_trs 0																		\
 		-tshift_opts_ts -tpattern altplus																\
-	  	-align_opts_aea -cost lpc+ZZ -giant_move -check_flip											\
-	  	-align_epi_strip_method 3dSkullStrip                                                            \
+		-align_opts_aea -cost lpc+ZZ -giant_move -check_flip											\
+		-align_epi_strip_method 3dSkullStrip                                                            \
 		-tlrc_base MNI152_2009_template_SSW.nii.gz														\
 		-tlrc_NL_warp																					\
 		-tlrc_NL_warped_dsets $sswindir/$anatQQ															\
