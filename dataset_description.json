@@ -1,5 +1,5 @@
 {
-    "Name": "Magic, Memory, and Curiosity (MMC) Dataset",
+    "Name": "Magic, Memory, and Curiosity (MMC) fMRI Dataset",
     "BIDSVersion": "1.1.2",
     "Authors": [
         "Stefanie Meliss",
@@ -11,6 +11,6 @@
         "The study protocol was approved by the University of Reading Research Ethics Committee (UREC; 18/18)."
     ],
     "License": "CC0",
-    "Acknowledgements": "We would like to thank the Centre for Integrative Neuroscience and Neurodynamics (CINN) and the MeMo lab for helpful discussions and support in the realisation of this project. We would like to also thank Carien van Reekum, Tom Johnston, Michiko Sakaki, and Matthias Gruber for their suggestions regarding the design of the study. We would further like to thank Paul Taylor, Rick Reynolds, and Vinai Roopchansingh for their advice on the full preprocessing pipeline. Lastly, we would like to acknowledge Anthony Haffey\u2019s ongoing support with regards to data collection using Collector.",
+    "Acknowledgements": "We would like to thank the Centre for Integrative Neuroscience and Neurodynamics (CINN) and the MeMo lab for helpful discussions and support in the realisation of this project. We would like to also thank Carien van Reekum, Tom Johnston, Michiko Sakaki, and Matthias Gruber for their suggestions regarding the design of the study. We would further like to thank Paul Taylor, Rick Reynolds, and Vinai Roopchansingh for their advice on the full preprocessing pipeline. Lastly, we would like to acknowledge Anthony Haffey’s ongoing support with regards to data collection using Collector.",
     "DatasetDOI": "doi:10.18112/openneuro.ds004182.v1.0.0"
 }
