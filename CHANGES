@@ -1,3 +1,7 @@
+1.0.1 2023-05-01
+  - replace all MRIQC files with defaced output
+  - add more detailed data from working memory tasks
+  - fix errors in behavioural data
 1.0.0 2022-07-22
   - initial snapshot
 0.62 2020-06-08T13:41:53
