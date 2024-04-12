@@ -1,0 +1,10 @@
+filename	acq_time
+func/sub-experimental012_task-rest_run-1_bold.nii.gz	2019-08-20T15:00:52
+fmap/sub-experimental012_magnitude1.nii.gz	2019-08-20T14:53:00
+fmap/sub-experimental012_magnitude2.nii.gz	2019-08-20T14:53:00
+fmap/sub-experimental012_phasediff.nii.gz	2019-08-20T14:53:00
+func/sub-experimental012_task-magictrickwatching_run-1_bold.nii.gz	2019-08-20T15:18:50
+func/sub-experimental012_task-magictrickwatching_run-2_bold.nii.gz	2019-08-20T15:34:29
+func/sub-experimental012_task-magictrickwatching_run-3_bold.nii.gz	2019-08-20T15:38:55
+func/sub-experimental012_task-rest_run-2_bold.nii.gz	2019-08-20T16:01:53
+anat/sub-experimental012_rec-NORM_T1w.nii.gz	2019-08-20T16:04:19
